@@ -7,6 +7,8 @@ TEMP_DIR = tempfile.gettempdir()
 DB_PATH = os.path.join(TEMP_DIR, "expenses.db")
 CATEGORIES_PATH = os.path.join(os.path.dirname(__file__), "categories.json")
 
+# adding some commments
+
 print(f"Database path: {DB_PATH}")
 
 mcp = FastMCP("ExpenseTracker")
